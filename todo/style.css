@@ -111,6 +111,7 @@ input[type="checkbox"] {
 	display: none;
 }
 
+
 .bubble {
 	display: flex;
 	align-items: center;
@@ -231,7 +232,17 @@ input:checked ~ .bubble::after {
 	background-color: var(--danger);
 }
 
-.todo-item.done .todo-content input {
+.todo-item .done .todo-content input {
 	text-decoration: line-through;
 	color: var(--grey);
+}
+.logout input[type="submit"]{
+	display: block;
+	padding: 0.5rem 1.5rem;
+	color: #FFF;
+	background-color: var(--primary);
+	box-shadow: var(--personal-glow);
+	border-radius: 0.5rem;
+	cursor: pointer;
+	transition: 0.2s ease-out;
 }
