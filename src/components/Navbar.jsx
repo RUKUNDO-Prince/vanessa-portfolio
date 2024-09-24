@@ -4,14 +4,14 @@ import { RiMenuFoldLine, RiCloseLine } from "react-icons/ri";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [activeLink, setActiveLink] = useState('Home'); // Track active link
+  const [activeLink, setActiveLink] = useState('Home');
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   const handleLinkClick = (link) => {
-    setActiveLink(link); // Set the active link when clicked
+    setActiveLink(link);
   };
 
   const navLinks = ['Home', 'About', 'Services', 'Skills', 'Projects', 'Contact'];
@@ -21,9 +21,9 @@ const Navbar = () => {
       {/* LARGER SCREENS */}
       <div className='bg-blue-primary md:flex justify-between lg:px-20 md:px-12 hidden shadow-lg'>
         <img src={logo} alt="" className='' />
-        <ul className='text-white flex items-center justify-center gap-9 w-[60%]'>
+        <ul className='text-white flex items-center justify-center lg:gap-14 gap-10 w-[60%]'>
           {navLinks.map((link) => (
-            <li key={link} className="relative group">
+            <li key={link} className="relative group lg:text-[1.1em]">
               <a
                 href="#"
                 className={`transition duration-300 ease-in-out ${
@@ -33,7 +33,7 @@ const Navbar = () => {
               >
                 {link}
               </a>
-              {/* Underline effect only on hover */}
+              {/* UNDERLINE EFFECT */}
               <span
                 className={`absolute left-0 bottom-0 h-[2px] w-full bg-primary transform scale-x-0 transition-transform duration-300 ease-in-out group-hover:scale-x-100`}
               ></span>
@@ -56,13 +56,13 @@ const Navbar = () => {
 
       {/* MOBILE MENU */}
       <div
-        className={`bg-blue-primary text-white flex flex-col items-center transition-all duration-500 ease-in-out ${
+        className={`bg-blue-primary border-t text-white flex flex-col items-center transition-all duration-500 ease-in-out ${
           isOpen ? 'max-h-screen' : 'max-h-0 overflow-hidden'
         } md:hidden`}
       >
-        <ul className={`w-full text-center ${isOpen ? 'block' : 'hidden'}`}>
+        <ul className={`w-full flex items-center justify-center gap-5 ${isOpen ? 'block' : 'hidden'}`}>
           {navLinks.map((link) => (
-            <li key={link} className="py-3 relative group">
+            <li key={link} className="py-3 relative group m-2">
               <a
                 href="#"
                 className={`transition duration-300 ease-in-out ${
@@ -72,7 +72,7 @@ const Navbar = () => {
               >
                 {link}
               </a>
-              {/* Underline effect only on hover */}
+              {/* UNDERLINE EFFECT */}
               <span
                 className={`absolute left-0 bottom-0 h-[2px] w-full bg-primary transform scale-x-0 transition-transform duration-300 ease-in-out group-hover:scale-x-100`}
               ></span>
