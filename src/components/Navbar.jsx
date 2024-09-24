@@ -12,6 +12,7 @@ const Navbar = () => {
 
   const handleLinkClick = (link) => {
     setActiveLink(link);
+    setIsOpen(false);
   };
 
   const navLinks = ['Home', 'About', 'Services', 'Skills', 'Projects', 'Contact'];
@@ -47,7 +48,10 @@ const Navbar = () => {
         <img src={logo} alt="" className='w-12' />
         <button onClick={toggleMenu}>
           {isOpen ? (
-            <RiCloseLine className='text-white w-10 h-6' />
+            // <div className='bg-primary w-10 h-10 flex items-center rounded-full'>
+            //   <RiCloseLine className='text-white w-10 h-6' />
+            // </div>
+            <></>
           ) : (
             <RiMenuFoldLine className='text-white w-10 h-6' />
           )}
@@ -56,16 +60,22 @@ const Navbar = () => {
 
       {/* MOBILE MENU */}
       <div
-        className={`bg-blue-primary border-t text-white flex flex-col items-center transition-all duration-500 ease-in-out ${
-          isOpen ? 'max-h-screen' : 'max-h-0 overflow-hidden'
-        } md:hidden`}
+        className={`bg-blue-primary text-white fixed top-0 right-0 h-full w-64 transform transition-transform duration-500 ease-in-out md:hidden ${
+          isOpen ? 'translate-x-0' : 'translate-x-full'
+        }`}
       >
-        <ul className={`w-full flex items-center justify-center gap-5 ${isOpen ? 'block' : 'hidden'}`}>
+        {/* CLOSE BUTTON */}
+        <div className='flex justify-end p-4 '>
+          <button onClick={toggleMenu} className='bg-primary rounded-full p-1'>
+            <RiCloseLine className='text-white w-8 h-8' />
+          </button>
+        </div>
+        <ul className="flex flex-col items-start p-6">
           {navLinks.map((link) => (
-            <li key={link} className="py-3 relative group m-2">
+            <li key={link} className="py-3 relative group w-full">
               <a
                 href="#"
-                className={`transition duration-300 ease-in-out ${
+                className={`transition duration-300 ease-in-out block ${
                   activeLink === link ? 'text-primary' : 'text-white'
                 }`}
                 onClick={() => handleLinkClick(link)}
