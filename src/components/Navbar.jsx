@@ -22,7 +22,7 @@ const Navbar = () => {
       {/* LARGER SCREENS */}
       <div className='bg-blue-primary md:flex justify-between lg:px-20 md:px-12 hidden shadow-lg'>
         <img src={logo} alt="" className='' />
-        <ul className='text-white flex items-center justify-center lg:gap-14 gap-10 w-[60%]'>
+        <ul className='text-white flex items-center justify-center lg:gap-14 gap-8 w-[60%]'>
           {navLinks.map((link) => (
             <li key={link} className="relative group lg:text-[1.1em]">
               <a
