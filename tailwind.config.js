@@ -22,6 +22,7 @@ export default {
       primary: "#F86F03",
       secondary: "#",
       white: "#FFFFFF",
+      black: "#000000",
       blue: {
         primary: "#170550",
         secondary: "#43366A",
