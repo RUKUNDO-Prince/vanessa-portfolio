@@ -6,6 +6,7 @@ import Services from "./Services";
 import Projects from "./Projects";
 import Clients from "./Clients";
 import Contact from "./Contact";
+import Skills from "./Skills";
 
 export {
     Navbar,
@@ -15,5 +16,6 @@ export {
     Services,
     Projects,
     Clients,
-    Contact
+    Contact,
+    Skills
 }
