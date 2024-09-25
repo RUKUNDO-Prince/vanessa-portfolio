@@ -10,6 +10,18 @@ import download from './downloadsvg.svg'
 import backend from './backend.svg'
 import embedded from './embedded.svg'
 import design from './design.svg'
+import css from './css.svg'
+import js from './js.svg'
+import php from './php.svg'
+import ruby from './ruby.svg'
+import java from './java.svg'
+import figma from './figma.svg'
+import cpp from './cpp.svg'
+import c from './c.svg'
+import html from './html.svg'
+import python from './python.svg'
+import golang from './golang.svg'
+import npm from './npm.svg'
 
 export {
     logo,
@@ -23,5 +35,17 @@ export {
     email,
     backend,
     embedded,
-    design
+    design,
+    css,
+    js,
+    php,
+    ruby,
+    java,
+    figma,
+    cpp,
+    c,
+    html,
+    python,
+    golang,
+    npm
 }

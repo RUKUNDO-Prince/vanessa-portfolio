@@ -1,4 +1,4 @@
-import { facebook, instagram, linkedin, github, backend, embedded, design } from "../assets"
+import { facebook, instagram, linkedin, github, backend, embedded, design, css, js, php, ruby, java, figma, cpp, c, html, python, golang, npm } from "../assets"
 
 export const socialLinks = [
     {
@@ -49,5 +49,56 @@ export const servicesData = [
         icon: design,
         title: "IoT Developer",
         desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+    },
+]
+
+export const skillsData = [
+    {
+        icon: css,
+        desc: "CSS"
+    },
+    {
+        icon: js,
+        desc: "JS"
+    },
+    {
+        icon: php,
+        desc: "PHP"
+    },
+    {
+        icon: ruby,
+        desc: "Ruby"
+    },
+    {
+        icon: java,
+        desc: "Java"
+    },
+    {
+        icon: figma,
+        desc: "Figma"
+    },
+    {
+        icon: cpp,
+        desc: "C++"
+    },
+    {
+        icon: c,
+        desc: "C"
+    },
+    {
+        icon: html,
+        desc: "HTML"
+    },
+    {
+        icon: python,
+        desc: "Python"
+    },
+    {
+        icon: golang,
+        desc: "Go Lang"
+    },
+    {
+        icon: npm,
+        desc: "NPM"
     },
 ]
