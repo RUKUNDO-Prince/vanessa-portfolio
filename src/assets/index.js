@@ -22,6 +22,11 @@ import html from './html.svg'
 import python from './python.svg'
 import golang from './golang.svg'
 import npm from './npm.svg'
+import project1 from './projects/project1.png'
+import project2 from './projects/project2.png'
+import project3 from './projects/project3.png'
+import project4 from './projects/project4.png'
+import arrow from './arrow.svg'
 
 export {
     logo,
@@ -47,5 +52,10 @@ export {
     html,
     python,
     golang,
-    npm
+    npm,
+    project1,
+    project2,
+    project3,
+    project4,
+    arrow
 }

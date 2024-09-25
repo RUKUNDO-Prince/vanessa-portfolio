@@ -1,4 +1,4 @@
-import { facebook, instagram, linkedin, github, backend, embedded, design, css, js, php, ruby, java, figma, cpp, c, html, python, golang, npm } from "../assets"
+import { facebook, instagram, linkedin, github, backend, embedded, design, css, js, php, ruby, java, figma, cpp, c, html, python, golang, npm, project1, project2, project3, project4 } from "../assets"
 
 export const socialLinks = [
     {
@@ -100,5 +100,28 @@ export const skillsData = [
     {
         icon: npm,
         desc: "NPM"
+    },
+]
+
+export const projectsData = [
+    {
+        icon: project1,
+        name: "Novars - Agri-Based",
+        link: "#"
+    },
+    {
+        icon: project2,
+        name: "Wohoo - Weather App",
+        link: "#"
+    },
+    {
+        icon: project3,
+        name: "Pagee - Real Estate UI Kit",
+        link: "#"
+    },
+    {
+        icon: project4,
+        name: "Inverwa - Agency Web",
+        link: "#"
     },
 ]
