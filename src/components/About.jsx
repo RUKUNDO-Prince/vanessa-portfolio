@@ -14,7 +14,7 @@ const About = () => {
           <h1 className='text-[1.875em] font-semibold font-exo2'>Backend Developer & UI Designer</h1>
           <p className='font-semibold font-exo2 text-[1.1em]'>I am a skilled software engineer based in Kigali,Rwanda, with a three-year background in developing user-friendly solutions for government, institution, startups, and personal endeavors. My analytical problem-solving expertise drives me to construct robust platforms that amplify competitiveness and revenue streams.</p>
           <p className='font-semibold font-exo2 text-[1.1em]'> I consistently maintain a professional attitude through challenges and turn them into opportunities. My interpersonal skills strongly contribute to my journey as a lifelong learner and leader...</p>
-          <button className='bg-white border-white border-2 text-black rounded-3xl xl:w-[20%] md:w-[30%] p-2 hover:bg-blue-primary'>Read More ...</button>
+          <button className='bg-white border-white border-2 text-black rounded-3xl xl:w-[20%] md:w-[30%] p-2 hover:bg-blue-primary hover:text-white'>Read More ...</button>
         </div>
       </div>
     </div>

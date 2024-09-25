@@ -10,7 +10,6 @@ const App = () => {
       <Services />
       <Skills />
       <Projects />
-      <Services />
       <Clients />
       <Contact />
       <Footer />

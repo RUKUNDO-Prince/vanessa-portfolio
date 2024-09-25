@@ -7,6 +7,9 @@ import github from './github.svg'
 import linkedin from './linkedin.svg'
 import email from './email.svg'
 import download from './downloadsvg.svg'
+import backend from './backend.svg'
+import embedded from './embedded.svg'
+import design from './design.svg'
 
 export {
     logo,
@@ -17,5 +20,8 @@ export {
     github,
     linkedin,
     download,
-    email
+    email,
+    backend,
+    embedded,
+    design
 }
