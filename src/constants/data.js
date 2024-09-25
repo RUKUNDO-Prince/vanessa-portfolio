@@ -125,3 +125,27 @@ export const projectsData = [
         link: "#"
     },
 ]
+
+export const carouselData = [
+    {
+        index: 1,
+        name: "Accarie Davine",
+        img: "",
+        position: "Project Manager, Exito",
+        desc: "Wow is all i can say! Vanessa did an absolute fenominal job from start to finish. She designed exactly what I wanted and exceeded my expectation. Highly recommend Vanessa!"
+    },
+    {
+        index: 2,
+        name: "Accarie Davine",
+        img: "",
+        position: "Project Manager, Exito",
+        desc: "Wow is all i can say! Vanessa did an absolute fenominal job from start to finish. She designed exactly what I wanted and exceeded my expectation. Highly recommend Vanessa!"
+    },
+    {
+        index: 3,
+        name: "Accarie Davine",
+        img: "",
+        position: "Project Manager, Exito",
+        desc: "Wow is all i can say! Vanessa did an absolute fenominal job from start to finish. She designed exactly what I wanted and exceeded my expectation. Highly recommend Vanessa!"
+    },
+]
