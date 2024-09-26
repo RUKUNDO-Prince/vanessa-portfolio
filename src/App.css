@@ -1,0 +1,19 @@
+/* Carousel.css */
+.slick-dots {
+  bottom: -30px; /* Adjust this value if you want to change the position of the dots */
+}
+
+.slick-dots li {
+  margin: 0 5px; /* Adjust space between dots */
+}
+
+.slick-dots li button:before {
+  font-size: 10px; /* Size of the dots */
+  color: white; /* Default dot color */
+  opacity: 1; /* Ensure the color is visible */
+}
+
+.slick-dots li.slick-active button:before {
+    color: #F86F03; /* Example primary color */
+  }
+  
