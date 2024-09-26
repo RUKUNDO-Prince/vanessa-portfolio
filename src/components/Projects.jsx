@@ -4,7 +4,7 @@ import ProjectsList from './ProjectsList'
 
 const Projects = () => {
   return (
-    <div className='bg-purple-primary flex flex-col items-center md:p-10 p-5'>
+    <div id='projects' className='bg-purple-primary flex flex-col items-center md:p-10 p-5'>
       <div className='xl:w-[15%] lg:w-[30%] md:w-[50%] w-full'>
         <Title name="My" surname="Projects" />
       </div>

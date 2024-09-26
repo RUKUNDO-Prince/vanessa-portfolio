@@ -4,7 +4,7 @@ import { profile } from '../assets'
 
 const About = () => {
   return (
-    <div className='bg-blue-primary flex items-center justify-center flex-col gap-10 sm:p-12 p-2'>
+    <div id='about' className='bg-blue-primary flex items-center justify-center flex-col gap-10 sm:p-12 p-2'>
       <div className='xl:w-[15%] lg:w-[30%] md:w-[50%] w-full'>
         <Title name="About" surname="Me" />
       </div>

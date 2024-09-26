@@ -4,7 +4,7 @@ import { socialLinks } from '../constants/data'
 
 const Hero = () => {
   return (
-    <div className='flex flex-col-reverse md:flex-row items-center xl:gap-40 md:gap-5 bg-purple-primary lg:px-20 md:px-10 px-5 pb-5'>
+    <div id='home' className='flex flex-col-reverse md:flex-row items-center xl:gap-40 md:gap-5 bg-purple-primary lg:px-20 md:px-10 px-5 pb-5 mt-10'>
       <div className='flex flex-col items-start justify-center py-10 md:gap-5'>
         <p className='text-primary font-semibold font-exo2 xl:text-[1.875em] lg:text-[1.7] md:text-[1.6] text-[1.5em]'>Hi, it's me</p>
         <h1 className='text-white font-bold font-exo2 xl:text-[3.75em] lg:text-[3em] md:text-[2.8em] md:leading-10 text-[2.3em]'>UWASE S. Vanessa</h1>
@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
       </div>
       <div className=''>
-        <img src={banner} width={1000} alt="" className='' />
+        <img src={banner} width={1000} alt="" className='mt-10 md:mt-0' />
       </div>
     </div>
   )

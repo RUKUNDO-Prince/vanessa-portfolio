@@ -5,7 +5,7 @@ import ContactForm from './ContactForm'
  
 const Contact = () => {
   return (
-    <div className='bg-blue-primary flex flex-col items-center p-5'>
+    <div id='contact' className='bg-blue-primary flex flex-col items-center p-5'>
       <div className='xl:w-[15%] lg:w-[30%] md:w-[50%] w-full'>
         <Title name="Contact" surname="Me" />
       </div>

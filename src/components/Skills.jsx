@@ -4,7 +4,7 @@ import { skillsData } from '../constants/data'
 
 const Skills = () => {
   return (
-    <div className='bg-blue-primary flex flex-col items-center p-10'>
+    <div id='skills' className='bg-blue-primary flex flex-col items-center p-10'>
       <div className='xl:w-[15%] lg:w-[30%] md:w-[50%] w-full'>
         <Title name="My" surname="Skills" />
       </div>
