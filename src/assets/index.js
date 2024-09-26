@@ -27,6 +27,9 @@ import project2 from './projects/project2.png'
 import project3 from './projects/project3.png'
 import project4 from './projects/project4.png'
 import arrow from './arrow.svg'
+import img from './img.png'
+import phone from './phone.svg'
+import location from './location.svg'
 
 export {
     logo,
@@ -57,5 +60,8 @@ export {
     project2,
     project3,
     project4,
-    arrow
+    arrow,
+    img,
+    phone,
+    location
 }
