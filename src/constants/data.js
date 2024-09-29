@@ -1,4 +1,4 @@
-import { facebook, instagram, linkedin, github, backend, embedded, design, css, js, php, ruby, java, figma, cpp, c, html, python, golang, npm, project1, project2, project3, project4, img } from "../assets"
+import { facebook, instagram, linkedin, github, backend, embedded, design, css, js, php, ruby, java, figma, cpp, c, html, python, golang, npm, project1, project2, project3, project4, img, tresol, hope, awet, nina } from "../assets"
 
 export const socialLinks = [
     {
@@ -129,23 +129,30 @@ export const projectsData = [
 export const carouselData = [
     {
         index: 1,
-        name: "Accarie Davine",
-        img: img,
-        position: "Project Manager, Exito",
-        desc: "Wow is all i can say! Vanessa did an absolute fenominal job from start to finish. She designed exactly what I wanted and exceeded my expectation. Highly recommend Vanessa!"
+        name: "Remy Tresol",
+        img: tresol,
+        position: "Co-CEO & Co-Founder of Libblio",
+        desc: "Vanessa is a backend wizard! She transformed our system, making it faster, more secure, and scalable. Her ability to solve complex problems is unmatched. Highly recommend for any backend project"
     },
     {
         index: 2,
-        name: "Accarie Davine",
-        img: img,
-        position: "Project Manager, Exito",
-        desc: "Wow is all i can say! Vanessa did an absolute fenominal job from start to finish. She designed exactly what I wanted and exceeded my expectation. Highly recommend Vanessa!"
+        name: "Hope Iradukunda",
+        img: hope,
+        position: "Front-end  developer of Novars",
+        desc: "Vanessa, as the CEO of Novars, is an outstanding leader. Her vision, technical expertise, and ability to motivate the team have been key to our project's success"
     },
     {
         index: 3,
-        name: "Accarie Davine",
-        img: img,
-        position: "Project Manager, Exito",
-        desc: "Wow is all i can say! Vanessa did an absolute fenominal job from start to finish. She designed exactly what I wanted and exceeded my expectation. Highly recommend Vanessa!"
+        name: "Dr. Awet Fesseha",
+        img: awet,
+        position: "Instructor of Software Engineering",
+        desc: "Vanessa consistently demonstrates exceptional skill and creativity in software engineering. Her passion for learning and ability to tackle complex challenges make her a remarkable talent in the field."
+    },
+    {
+        index: 3,
+        name: "Nina Henriette",
+        img: nina,
+        position: "Project Manager of ElecSync",
+        desc: "Her UI/UX design skills are top-notch. She created an intuitive, visually stunning interface that significantly improved user engagement. The entire experience was seamless from start to finish"
     },
 ]

@@ -30,6 +30,10 @@ import arrow from './arrow.svg'
 import img from './img.png'
 import phone from './phone.svg'
 import location from './location.svg'
+import nina from './testimonials/nina.png'
+import tresol from './testimonials/tresol.png'
+import awet from './testimonials/awet.png'
+import hope from './testimonials/hope.png'
 
 export {
     logo,
@@ -63,5 +67,9 @@ export {
     arrow,
     img,
     phone,
-    location
+    location,
+    hope,
+    nina,
+    tresol,
+    awet
 }
