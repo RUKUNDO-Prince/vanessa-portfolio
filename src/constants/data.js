@@ -7,7 +7,7 @@ export const socialLinks = [
     },
     {
         icon: linkedin,
-        link: "#"
+        link: "https://www.linkedin.com/in/uwase-vanessa-607243256/"
     },
     {
         icon: github,
@@ -15,7 +15,7 @@ export const socialLinks = [
     },
     {
         icon: instagram,
-        link: "#"
+        link: "https://www.instagram.com/van_eus/"
     },
 ]
 
@@ -107,12 +107,12 @@ export const projectsData = [
     {
         icon: project1,
         name: "Novars - Agri-Based",
-        link: "#"
+        link: "http://194.163.167.131:3030/  ----- Novars "
     },
     {
         icon: project2,
-        name: "Wohoo - Weather App",
-        link: "#"
+        name: "Libblio - Library Management System",
+        link: "https://www.libblio.com/"
     },
     {
         icon: project3,
