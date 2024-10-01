@@ -3,9 +3,7 @@ import {
   About,
   Clients,
   Contact,
-  Footer,
   Hero,
-  Navbar,
   Projects,
   Services,
   Skills,
@@ -14,7 +12,6 @@ import {
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <Hero />
       <About />
       <Services />
@@ -22,7 +19,6 @@ const Home = () => {
       <Projects />
       <Clients />
       <Contact />
-      <Footer />
     </div>
   );
 };
