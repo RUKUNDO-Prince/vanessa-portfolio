@@ -1,21 +1,17 @@
-import React from 'react'
-import { About, Clients, Contact, Footer, Hero, Navbar, Projects, Services, Skills } from './components'
-import './App.css'
+import React from 'react';
+import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Home, ProjectsPage } from './pages';
 
 const App = () => {
   return (
-    <div className=''>
-      <Navbar />
-      <Hero />
-      <About />
-      <Services />
-      <Skills />
-      <Projects />
-      <Clients />
-      <Contact />
-      <Footer />
-    </div>
-  )
+    <>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/projects' element={<ProjectsPage />} />
+        </Routes>
+    </>
+  );
 }
 
-export default App
+export default App;
