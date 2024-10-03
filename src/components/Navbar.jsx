@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll'; // Import Link from react-scroll
 import { logo } from '../assets';
 import { RiMenuFoldLine, RiCloseLine } from "react-icons/ri";
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,7 @@ const Navbar = () => {
     <>
       {/* LARGER SCREENS */}
       <div className='bg-blue-primary md:flex justify-between lg:px-20 md:px-12 hidden shadow-lg fixed top-0 w-full z-50'>
-        <img src={logo} alt="" className='' />
+        <NavLink to="/"><img src={logo} alt="" className='' /></NavLink>
         <ul className='text-white flex items-center justify-center lg:gap-14 gap-8 w-[60%]'>
           {navLinks.map((link) => (
             <li key={link} className="relative group lg:text-[1.1em]">
