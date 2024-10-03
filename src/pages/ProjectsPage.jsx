@@ -4,7 +4,7 @@ import Title from '../components/Title'
 
 const ProjectsPage = () => {
   return (
-    <div className='bg-purple-primary flex flex-col items-center md:p-10 p-5 mt-20'>
+    <div className='bg-purple-primary flex flex-col items-center md:p-10 p-5 mt-20 border-b-2 border-blue-primary shadow-2xl'>
       <div className='xl:w-[15%] lg:w-[30%] md:w-[50%] w-full'>
         <Title name="My" surname="Projects" />
       </div>
