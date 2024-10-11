@@ -35,8 +35,14 @@ const Carousel = () => {
           arrows: false,
         }
       }
-    ]
+    ],
+    appendDots: dots => (
+      <ul className="custom-dots"> {dots} </ul>
+    )
   };
+  
+
+  
 
   return (
     <div className='relative w-full max-w-5xl m-12'>
