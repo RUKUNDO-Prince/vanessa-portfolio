@@ -116,8 +116,8 @@ export const projectsData = [
     },
     {
         icon: project3,
-        name: "Pagee - Real Estate UI Kit",
-        link: "#"
+        name: "CrytaVita  -  Disaster Management",
+        link: "https://cryptavita.vercel.app/"
     },
     {
         icon: project4,
