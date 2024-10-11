@@ -23,32 +23,32 @@ export const servicesData = [
     {
         icon: backend,
         title: "Backend Developer",
-        desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+        desc: "I specialize in building scalable and robust server-side applications that ensure seamless communication between the front end and databases."
     },
     {
         icon: embedded,
         title: "Embedded Systems",
-        desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+        desc: "With experience in designing and developing embedded systems, I provide end-to-end solutions that integrate hardware and software, ensuring efficient performance and functionality for real-world applications."
     },
     {
         icon: design,
         title: "UI/UX Design",
-        desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+        desc: "I focus on creating intuitive and user-centered designs that enhance the user experience. From wireframes to prototypes, my design process is data-driven and ensures both visual appeal and functionality"
     },
     {
         icon: backend,
         title: "Product Designer",
-        desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+        desc: "As a product designer, I blend creativity with functionality to design products that solve real-world problems. I work closely with clients to transform their ideas into tangible, user-friendly products."
     },
     {
         icon: embedded,
         title: "Researcher",
-        desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+        desc: "I conduct thorough and methodical research to provide actionable insights. Whether it's market analysis, user research, or technology trends, my findings help clients make informed decisions and innovate effectively."
     },
     {
         icon: design,
         title: "IoT Developer",
-        desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+        desc: "I develop Internet of Things (IoT) solutions that connect physical devices to the digital world. My expertise covers sensor integration, connectivity, and cloud-based applications to enhance automation and data analytics."
     },
 ]
 
