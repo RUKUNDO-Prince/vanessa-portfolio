@@ -7,6 +7,7 @@ import Projects from "./Projects";
 import Clients from "./Clients";
 import Contact from "./Contact";
 import Skills from "./Skills";
+import Gallery from "./Gallery";
 
 export {
     Navbar,
@@ -17,5 +18,6 @@ export {
     Projects,
     Clients,
     Contact,
-    Skills
+    Skills,
+    Gallery
 }

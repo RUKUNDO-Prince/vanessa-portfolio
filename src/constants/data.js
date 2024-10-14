@@ -156,3 +156,25 @@ export const carouselData = [
         desc: "Her UI/UX design skills are top-notch. She created an intuitive, visually stunning interface that significantly improved user engagement. The entire experience was seamless from start to finish"
     },
 ]
+
+// constants/data.js
+
+export const galleryData = [
+    {
+      id: 1,
+      image: project1,
+      title: 'Gallery Image 1',
+    },
+    {
+      id: 2,
+      image: project2,
+      title: 'Gallery Image 2',
+    },
+    {
+      id: 3,
+      image: project3,
+      title: 'Gallery Image 3',
+    },
+    // Add more gallery items here
+  ];
+  

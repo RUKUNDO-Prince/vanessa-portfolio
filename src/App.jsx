@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import { Home, ProjectsPage } from "./pages";
+import { GalleryPage, Home, ProjectsPage } from "./pages";
 import { Footer, Navbar } from "./components";
 
 const App = () => {
@@ -11,6 +11,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/gallery" element={<GalleryPage />} />
       </Routes>
       <Footer />
     </>

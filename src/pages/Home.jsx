@@ -7,6 +7,7 @@ import {
   Projects,
   Services,
   Skills,
+  Gallery,  // Import the new Gallery component
 } from "../components";
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <Services />
       <Skills />
       <Projects />
+      <Gallery />  {/* Add Gallery section here */}
       <Clients />
       <Contact />
     </div>
