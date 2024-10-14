@@ -17,7 +17,7 @@ const Navbar = () => {
     setIsOpen(false);
   };
 
-  const navLinks = ['Home', 'About', 'Services', 'Skills', 'Projects', 'Contact'];
+  const navLinks = ['Home', 'About', 'Services', 'Skills', 'Projects', 'Gallery', 'Contact'];
 
   return (
     <>
