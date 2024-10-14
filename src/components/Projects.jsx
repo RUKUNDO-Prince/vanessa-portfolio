@@ -15,7 +15,7 @@ const Projects = () => {
             <div className='w-[50px] h-[1.5px] bg-primary'></div><p className='text-primary text-[1.25em] font-exo2 font-bold'>Recent work</p>
           </div>
           <div className='text-white flex flex-col gap-5 md:flex-row justify-between lg:items-center w-full'>
-            <h1 className='xl:text-[2.875em] lg:text-[2.6em] md:text-[2.4em] text-[2em] font-bold font-exo2 xl:w-[40%] lg:leading-11 leading-9'>Some of my favorite projects.</h1>
+            <h1 className='xl:text-[2.8em] lg:text-[2.4em] md:text-[2.2em] text-[2em] font-semibold font-exo2 xl:w-[40%] lg:leading-10 leading-9'>Some of my favorite projects.</h1>
             <Link to="/projects" className='text-[0.875em] font-bold font-exo2 p-2 h-fit border-2 border-primary'>View All Projects</Link>
           </div>
         </div>
