@@ -52,7 +52,7 @@ import gallery15 from './gallery/15.jpg'
 import gallery16 from './gallery/16.jpg'
 import gallery17 from './gallery/17.jpg'
 import gallery18 from './gallery/18.jpg'
-import gallery19 from './gallery/19.jpg'
+import gallery19 from './gallery/19.png'
 
 export {
     logo,
