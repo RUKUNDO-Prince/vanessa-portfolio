@@ -2,10 +2,10 @@ import React from 'react';
 
 const GalleryCard = ({ image, title }) => {
   return (
-    <div className='relative'>
-      <img src={image} alt={title} className='w-full h-auto object-cover' />
-      <div className='absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-3'>
-        <h3 className='text-lg font-bold'>{title}</h3>
+    <div className="relative w-[450px] h-[300px] overflow-hidden">
+      <img src={image} alt={title} className="w-full h-full object-cover" />
+      <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white text-center">
+        <h3 className="py-2">{title}</h3>
       </div>
     </div>
   );

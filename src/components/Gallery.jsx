@@ -25,7 +25,7 @@ const Gallery = () => {
           </div>
         </div>
         <div>
-          <GalleryList /> {/* Displays a few gallery images */}
+          <GalleryList />
         </div>
       </div>
     </div>
