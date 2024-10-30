@@ -9,7 +9,7 @@ const GalleryPage = () => {
         <Title name="My" surname="Gallery" />
       </div>
       <div className='w-full md:p-5'>
-        <div className='flex flex-col justify-start items-start p-5'>
+        <div className='flex flex-col justify-start items-start p-5 mb-5'>
           <div className='flex items-center gap-2'>
             <div className='w-[50px] h-[1.5px] bg-primary'></div>
             <p className='text-primary text-[1.25em] font-exo2 font-bold'>Recent Works</p>
