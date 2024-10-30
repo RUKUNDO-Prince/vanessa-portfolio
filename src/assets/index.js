@@ -121,5 +121,5 @@ export {
     gallery19,
     gallery20,
     gallery21,
-    gallery22
+    gallery22,
 }
