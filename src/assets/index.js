@@ -8,6 +8,7 @@ import linkedin from './linkedin.svg'
 import email from './email.svg'
 import download from './downloadsvg.svg'
 import backend from './backend.svg'
+import embedded from './embedded.svg'
 import phone1 from './phone1.svg'
 import design from './design.svg'
 import iot from './iot.svg'
@@ -67,6 +68,7 @@ export {
     download,
     email,
     backend,
+    embedded,
     phone1,
     design,
     iot,

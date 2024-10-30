@@ -48,6 +48,7 @@ import {
   gallery17,
   gallery18,
   gallery19,
+  embedded,
 } from "../assets";
 
 export const socialLinks = [
@@ -76,7 +77,7 @@ export const servicesData = [
     desc: "I specialize in building scalable and robust server-side applications that ensure seamless communication between the front end and databases.",
   },
   {
-    icon: phone1,
+    icon: embedded,
     title: "Embedded Systems",
     desc: "With experience in designing and developing embedded systems, I provide end-to-end solutions that integrate hardware and software, ensuring efficient performance and functionality for real-world applications.",
   },
