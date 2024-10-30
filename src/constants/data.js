@@ -7,6 +7,7 @@ import {
   phone1,
   design,
   iot,
+  embedded,
   research,
   css,
   js,
@@ -48,7 +49,9 @@ import {
   gallery17,
   gallery18,
   gallery19,
-  embedded,
+  gallery20,
+  gallery21,
+  gallery22,
 } from "../assets";
 
 export const socialLinks = [
@@ -212,17 +215,17 @@ export const galleryData = [
   {
     id: 1,
     image: gallery1,
-    title: "Gallery Image 1",
+    title: "Rwanda Coding Academy Hackathon (KOICA)",
   },
   {
     id: 2,
     image: gallery2,
-    title: "Gallery Image 2",
+    title: "Novars Achievement",
   },
   {
     id: 3,
     image: gallery3,
-    title: "Gallery Image 3",
+    title: "Art and Science (Ubumuntu Art Festival)",
   },
   {
     id: 4,
@@ -303,5 +306,20 @@ export const galleryData = [
     id: 19,
     image: gallery19,
     title: "Gallery Image 19",
+  },
+  {
+    id: 20,
+    image: gallery20,
+    title: "Gallery Image 20",
+  },
+  {
+    id: 21,
+    image: gallery21,
+    title: "Gallery Image 21",
+  },
+  {
+    id: 22,
+    image: gallery22,
+    title: "Gallery Image 22",
   },
 ];

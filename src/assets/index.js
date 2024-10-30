@@ -56,6 +56,9 @@ import gallery16 from './gallery/16.jpg'
 import gallery17 from './gallery/17.jpg'
 import gallery18 from './gallery/18.jpg'
 import gallery19 from './gallery/19.png'
+import gallery20 from './gallery/20.jpg'
+import gallery21 from './gallery/21.jpg'
+import gallery22 from './gallery/22.jpg'
 
 export {
     logo,
@@ -116,4 +119,7 @@ export {
     gallery17,
     gallery18,
     gallery19,
+    gallery20,
+    gallery21,
+    gallery22
 }
