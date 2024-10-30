@@ -25,7 +25,7 @@ const Gallery = () => {
           </div>
         </div>
         <div>
-          <GalleryList />
+          <GalleryList limit={3} />
         </div>
       </div>
     </div>
