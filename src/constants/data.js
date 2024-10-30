@@ -4,8 +4,10 @@ import {
   linkedin,
   github,
   backend,
-  embedded,
+  phone1,
   design,
+  iot,
+  research,
   css,
   js,
   php,
@@ -74,7 +76,7 @@ export const servicesData = [
     desc: "I specialize in building scalable and robust server-side applications that ensure seamless communication between the front end and databases.",
   },
   {
-    icon: embedded,
+    icon: phone1,
     title: "Embedded Systems",
     desc: "With experience in designing and developing embedded systems, I provide end-to-end solutions that integrate hardware and software, ensuring efficient performance and functionality for real-world applications.",
   },
@@ -84,17 +86,17 @@ export const servicesData = [
     desc: "I focus on creating intuitive and user-centered designs that enhance the user experience. From wireframes to prototypes, my design process is data-driven and ensures both visual appeal and functionality",
   },
   {
-    icon: backend,
+    icon: phone1,
     title: "Product Designer",
     desc: "As a product designer, I blend creativity with functionality to design products that solve real-world problems. I work closely with clients to transform their ideas into tangible, user-friendly products.",
   },
   {
-    icon: embedded,
+    icon: research,
     title: "Researcher",
     desc: "I conduct thorough and methodical research to provide actionable insights. Whether it's market analysis, user research, or technology trends, my findings help clients make informed decisions and innovate effectively.",
   },
   {
-    icon: design,
+    icon: iot,
     title: "IoT Developer",
     desc: "I develop Internet of Things (IoT) solutions that connect physical devices to the digital world. My expertise covers sensor integration, connectivity, and cloud-based applications to enhance automation and data analytics.",
   },
@@ -204,8 +206,6 @@ export const carouselData = [
     desc: "Her UI/UX design skills are top-notch. She created an intuitive, visually stunning interface that significantly improved user engagement. The entire experience was seamless from start to finish",
   },
 ];
-
-// constants/data.js
 
 export const galleryData = [
   {
