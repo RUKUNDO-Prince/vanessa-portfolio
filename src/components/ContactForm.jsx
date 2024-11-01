@@ -22,10 +22,10 @@ const ContactForm = () => {
 
     // Send the form data to EmailJS
     emailjs.send(
-      'service_uf62uuj', // Replace with your EmailJS service ID
-      'template_wa6el2n', // Replace with your EmailJS template ID
+      'service_lwafp9g', // Replace with your EmailJS service ID
+      'template_iymbffx', // Replace with your EmailJS template ID
       formData,
-      'O3OgpIeP3YtY5i4WO' // Replace with your EmailJS user ID
+      'B8V7L1SZpUI2W_BT3' // Replace with your EmailJS user ID
     )
     .then((response) => {
       toast.success("Message sent successfully, wait for the reply!");
