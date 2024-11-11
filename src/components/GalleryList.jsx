@@ -6,7 +6,7 @@ const GalleryList = ({ limit }) => {
   const limitedData = limit ? galleryData.slice(0, limit) : galleryData;
 
   return (
-    <div className='grid md:grid-cols-3 grid-cols-2 gap-5'>
+    <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5'>
       {limitedData.map((item) => (
         <GalleryCard key={item.id} image={item.image} title={item.title} />
       ))}
