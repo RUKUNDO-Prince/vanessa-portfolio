@@ -18,8 +18,8 @@ const Hero = () => {
           ))}
         </div>
         <div className='flex gap-5'>
-          <a href='/src/assets/resume.pdf' download="Vanessa-Resume.pdf" className='border-primary border-2 bg-primary py-2 px-4 rounded-3xl text-white hover:bg-purple-primary flex gap-2 items-center'><img src={download} alt="" className='w-5' />Download CV</a>
-          <a href="mailto:vanessauwase121@gmail.com?subject=Let’s%20Connect&body=Hi!" target='_blank' className='border-primary border-2 py-2 px-4 rounded-3xl text-white hover:bg-primary flex gap-2 items-center'><img src={email} alt="" className='w-5' />Email Me</a>
+          <a href='/resume.pdf' download="Vanessa-Resume.pdf" className='border-primary border-2 bg-primary py-2 px-4 rounded-3xl text-white hover:bg-purple-primary flex gap-2 items-center'><img src={download} alt="" className='w-5' />Download CV</a>
+          <a href="mailto:vanessauwase121@gmail.com?subject=Let's%20Connect&body=Hi!" target='_blank' className='border-primary border-2 py-2 px-4 rounded-3xl text-white hover:bg-primary flex gap-2 items-center'><img src={email} alt="" className='w-5' />Email Me</a>
         </div>
       </div>
       <div className=''>
