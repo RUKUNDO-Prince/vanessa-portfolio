@@ -37,6 +37,7 @@ import nina from './testimonials/nina.png'
 import tresol from './testimonials/tresol.png'
 import awet from './testimonials/awet.png'
 import hope from './testimonials/hope.png'
+import accarie from './testimonials/accarie.png'
 import gallery1 from './gallery/1.jpg'
 import gallery2 from './gallery/2.jpg'
 import gallery3 from './gallery/3.jpg'
@@ -100,6 +101,7 @@ export {
     nina,
     tresol,
     awet,
+    accarie,
     gallery1,
     gallery2,
     gallery3,

@@ -52,6 +52,7 @@ import {
   gallery20,
   gallery21,
   gallery22,
+  accarie,
 } from "../assets";
 
 export const socialLinks = [
@@ -203,11 +204,18 @@ export const carouselData = [
     desc: "Vanessa consistently demonstrates exceptional skill and creativity in software engineering. Her passion for learning and ability to tackle complex challenges make her a remarkable talent in the field.",
   },
   {
-    index: 3,
+    index: 4,
     name: "Nina Henriette",
     img: nina,
     position: "Project Manager of ElecSync",
     desc: "Her UI/UX design skills are top-notch. She created an intuitive, visually stunning interface that significantly improved user engagement. The entire experience was seamless from start to finish",
+  },
+  {
+    index: 5,
+    name: "Accarie Davine",
+    img: accarie,
+    position: "CEO of EzyPharma",
+    desc: "“Vanessa exceeded all expectations with her product design. She perfectly understood our concept and delivered a functional, user-friendly design that has been a huge hit with our customers. Truly outstanding work!”",
   },
 ];
 
