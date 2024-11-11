@@ -175,7 +175,7 @@ export const projectsData = [
   },
   {
     icon: project4,
-    name: "Inverwa - Agency Web",
+    name: "Mince Tech - Blockchain",
     link: "#",
   },
 ];
