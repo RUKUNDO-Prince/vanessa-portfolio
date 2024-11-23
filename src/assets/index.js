@@ -60,6 +60,15 @@ import gallery19 from './gallery/19.png'
 import gallery20 from './gallery/20.jpg'
 import gallery21 from './gallery/21.jpg'
 import gallery22 from './gallery/22.jpg'
+import gallery23 from './gallery/23.jpg'
+import gallery24 from './gallery/24.jpg'
+import gallery25 from './gallery/25.jpg'
+import gallery26 from './gallery/26.jpg'
+import gallery27 from './gallery/27.jpg'
+import gallery28 from './gallery/28.jpg'
+import gallery29 from './gallery/29.jpg'
+import gallery30 from './gallery/30.jpg'
+import gallery31 from './gallery/31.jpg'
 
 export {
     logo,
@@ -124,4 +133,13 @@ export {
     gallery20,
     gallery21,
     gallery22,
+    gallery23,
+    gallery24,
+    gallery25,
+    gallery26,
+    gallery27,
+    gallery28,
+    gallery29,
+    gallery30,
+    gallery31,
 }

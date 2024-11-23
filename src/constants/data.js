@@ -53,6 +53,15 @@ import {
   gallery21,
   gallery22,
   accarie,
+  gallery23,
+  gallery24,
+  gallery25,
+  gallery26,
+  gallery27,
+  gallery28,
+  gallery29,
+  gallery30,
+  gallery31,
 } from "../assets";
 
 export const socialLinks = [
@@ -329,5 +338,50 @@ export const galleryData = [
     id: 22,
     image: gallery22,
     title: "Gallery Image 22",
+  },
+  {
+    id: 23,
+    image: gallery23,
+    title: "Gallery Image 23",
+  },
+  {
+    id: 24,
+    image: gallery24,
+    title: "Gallery Image 24",
+  },
+  {
+    id: 25,
+    image: gallery25,
+    title: "Gallery Image 25",
+  },
+  {
+    id: 26,
+    image: gallery26,
+    title: "Gallery Image 26",
+  },
+  {
+    id: 27,
+    image: gallery27,
+    title: "Gallery Image 27",
+  },
+  {
+    id: 28,
+    image: gallery28,
+    title: "Gallery Image 28",
+  },
+  {
+    id: 29,
+    image: gallery29,
+    title: "Gallery Image 29",
+  },
+  {
+    id: 30,
+    image: gallery30,
+    title: "Gallery Image 30",
+  },
+  {
+    id: 31,
+    image: gallery31,
+    title: "Gallery Image 31",
   },
 ];
